@@ -1,0 +1,121 @@
+.section4 {
+  margin-left: 165px;
+  margin-right: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .section4_title {
+    color: #36536b;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .input {
+    width: 445px;
+    display: flex;
+    align-items:center;
+    .section4_email {
+      width: 445px;
+      height: 48px;
+      border: none;
+      background-color: #fff;
+      border-radius: 24px;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    }
+
+    .section4_email_submit {
+      width: 173px;
+      height: 50px;
+      border-radius: 24px;
+      background-color: #ba4270;
+      border: none;
+      position: absolute;
+      
+      right: 165px;
+      color: #fff;
+      font-family: PublicSans;
+    }
+  }
+}
+@media only screen and (max-width: 950px) {
+    .section4 {
+        margin-left: 165px;
+        margin-right: 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .section4_title {
+          color: #36536b;
+          font-size: 48px;
+          font-weight: 400;
+        }
+        .input {
+          width: 445px;
+          display: flex;
+          align-items:center;
+          .section4_email {
+            width: 445px;
+            height: 48px;
+            border: none;
+            background-color: #fff;
+            border-radius: 24px;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+          }
+      
+          .section4_email_submit {
+            width: 173px;
+            height: 50px;
+            border-radius: 24px;
+            background-color: #ba4270;
+            border: none;
+            position: absolute;
+            
+            right: 160px;
+            color: #fff;
+            font-family: PublicSans;
+          }
+        }
+      }
+}
+@media only screen and (max-width: 600px) {
+    .section4 {
+        margin-left: 24px;
+        margin-right: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .section4_title {
+          color: #36536b;
+          font-size: 48px;
+          font-weight: 400;
+        }
+        .input {
+          width: 327px;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+         
+          .section4_email {
+            width: 327px;
+            height: 48px;
+            border: none;
+            background-color: #fff;
+            border-radius: 24px;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+          }
+      
+          .section4_email_submit {
+            width: 327px;
+            height: 50px;
+            border-radius: 24px;
+            background-color: #ba4270;
+            border: none;
+            position: absolute;
+            top: 3651px;
+            right: 20px;
+            color: #fff;
+            font-family: PublicSans;
+          }
+        }
+      }
+}
+

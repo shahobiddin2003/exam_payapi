@@ -1,0 +1,288 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  max-width: 1110px;
+
+  .navbar {
+    display: flex;
+    .navbar_list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      .navbar_list_item {
+        display: inline-block;
+        font-family: PublicSans;
+        color: #36536b;
+        margin-right: 40px;
+      }
+    }
+  }
+  .header_bttn {
+    text-decoration: none;
+    display: block;
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ba4270;
+    text-align: center;
+
+    color: #fff;
+    font-family: PublicSans;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .herosection {
+    display: flex;
+    .herosection_inform {
+      width: 546px;
+      height: 345px;
+      margin-right: 206px;
+      margin-top: 152px;
+      .herosection_title {
+        font-weight: 400;
+        font-size: 72px;
+        font-family: DMSerifDisplay;
+        color: #36536b;
+      }
+    }
+    .hero_section_image {
+      width: 469px;
+      height: 706px;
+      margin-top: 74px;
+      position: relative;
+      top: -10px;
+      margin-left: -36px;
+    }
+    &_email {
+      width: 445px;
+      height: 48px;
+      border: none;
+      background-color: #fff;
+      border-radius: 24px;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    }
+    &_email_submit {
+      width: 173px;
+      height: 50px;
+      border-radius: 24px;
+      background-color: #ba4270;
+      border: none;
+      position: absolute;
+      left: 442px;
+      color: #fff;
+      font-family: PublicSans;
+    }
+    &_quickcontact {
+      font-family: PublicSans;
+      color: #6c8294;
+    }
+    &_tel {
+      text-decoration: none;
+      color: #6c8294;
+      font-weight: bold;
+    }
+  }
+}
+// RESPONSIVE_TABLET
+@media only screen and (max-width: 960px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    max-width: 1110px;
+
+    .navbar {
+      display: flex;
+
+      .navbar_list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        .navbar_list_item {
+          display: inline-block;
+          font-family: PublicSans;
+          color: #36536b;
+          margin-right: 20px;
+        }
+      }
+    }
+    .header_bttn {
+      text-decoration: none;
+      display: block;
+      width: 173px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: #ba4270;
+      text-align: center;
+
+      color: #fff;
+      font-family: PublicSans;
+    }
+    .hamburger {
+      display: none;
+    }
+
+    .herosection {
+      display: flex;
+      flex-direction: column-reverse;
+      max-width: 375px;
+      .herosection_inform {
+        width: 573px;
+        height: 225px;
+        margin-right: 206px;
+        margin-top: -100px;
+        .herosection_title {
+          font-weight: 400;
+          font-size: 48px;
+          font-family: DMSerifDisplay;
+          color: #36536b;
+        }
+      }
+      .hero_section_image {
+        width: 269px;
+        height: 419px;
+        margin-top: 19px;
+        position: relative;
+        top: -33px;
+        right: -185px;
+      }
+      &_email {
+        width: 445px;
+        height: 48px;
+        border: none;
+        background-color: #fff;
+        border-radius: 24px;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      }
+      &_email_submit {
+        width: 173px;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #ba4270;
+        border: none;
+        position: absolute;
+        left: 442px;
+        color: #fff;
+        font-family: PublicSans;
+      }
+      &_quickcontact {
+        font-family: PublicSans;
+        color: #6c8294;
+      }
+      &_tel {
+        text-decoration: none;
+        color: #6c8294;
+        font-weight: bold;
+      }
+    }
+  }
+}
+// RESPONSIVE_MOBILE
+@media only screen and (max-width: 760px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    max-width: 327px;
+
+    .navbar {
+      display: flex;
+
+      .navbar_list {
+        display: none;
+        justify-content: space-between;
+        list-style: none;
+        .navbar_list_item {
+          display: inline-block;
+          font-family: PublicSans;
+          color: #36536b;
+          margin-right: 20px;
+        }
+      }
+    }
+    .header_bttn {
+      text-decoration: none;
+      display: none;
+      width: 173px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: #ba4270;
+      text-align: center;
+
+      color: #fff;
+      font-family: PublicSans;
+    }
+    .hamburger {
+      display: block;
+      width: 28px;
+      height: 17px;
+    }
+
+    .herosection {
+      display: flex;
+      flex-direction: column-reverse;
+      max-width: 327px;
+      .herosection_inform {
+        width: 327px;
+        height: 225px;
+        margin-right: 206px;
+        margin-top: -100px;
+        .herosection_title {
+          font-weight: 400;
+          font-size: 32px;
+          font-family: DMSerifDisplay;
+          color: #36536b;
+          text-align: center;
+        }
+      }
+      .hero_section_image {
+        width: 215px;
+        height: 328px;
+        margin-top: 19px;
+        position: relative;
+        top: -33px;
+        right: -69px;
+        
+      }
+      &_email {
+        width: 327px;
+        height: 48px;
+        border: none;
+        background-color: #fff;
+        border-radius: 24px;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      }
+      &_email_submit {
+        width: 327px;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #ba4270;
+        border: none;
+        position: absolute;
+        left: 24px;
+        color: #fff;
+        font-family: PublicSans;
+      }
+      &_quickcontact {
+        font-family: PublicSans;
+        color: #6c8294;
+        position: relative;
+        top: 52px;
+        font-size: 15px;
+        text-align: center;
+      }
+      &_tel {
+        text-decoration: none;
+        color: #6c8294;
+        font-weight: bold;
+      }
+    }
+  }
+}

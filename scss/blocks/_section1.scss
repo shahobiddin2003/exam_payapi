@@ -1,0 +1,198 @@
+main {
+  .section1 {
+    margin-top: 200px;
+    height: 472px;
+    background-color: #1b262f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../images/section1_element.png);
+    background-repeat: no-repeat;
+    background-size: 547px 480px;
+
+    .section1_inform {
+      display: block;
+      width: 445px;
+      height: 272px;
+      padding-left: 165px;
+      padding-bottom: 100px;
+    }
+    &_title {
+      color: #fbfcfe;
+      font-size: 48px;
+      font-family: DMSerifDisplay;
+    }
+    &_content {
+      color: #fbfcfe;
+      font-size: 15px;
+      line-height: 28px;
+      font-family: PublicSans;
+      mix-blend-mode: normal;
+      opacity: 0.7;
+    }
+    &_img {
+      width: 536px;
+      height: 103px;
+      margin-right: 165px;
+    }
+    &_button {
+      border: 2px solid #fbfcfe;
+      width: 90px;
+      height: 32px;
+      border-radius: 30px;
+      background-color: #36536b;
+      padding: 14px 32px;
+    }
+    &_href {
+      text-decoration: none;
+      color: #fbfcfe;
+      font-size: 15px;
+      text-align: center;
+      display: block;
+      padding-top: 5px;
+      font-weight: 700;
+      font-family: PublicSans;
+    }
+  }
+}
+// RESPONSIVE_TABLET
+@media only screen and (max-width: 1300px) {
+  main {
+    .section1 {
+      margin-top: 200px;
+      height: 615px;
+      background-color: #1b262f;
+      display: flex;
+      justify-content: start;
+      flex-direction: column-reverse;
+      align-items: center;
+      background-image: url(../../images_tablet/herosection_element1.png);
+      background-repeat: no-repeat;
+      background-size: 767px 255px;
+
+      .section1_inform {
+        display: block;
+        width: 457px;
+        height: 272px;
+        padding-left: 165px;
+        padding-bottom: 1px;
+      }
+      &_title {
+        color: #fbfcfe;
+        font-size: 48px;
+        font-family: DMSerifDisplay;
+        margin: 91px -35px;
+      }
+      &_content {
+        color: #fbfcfe;
+        font-size: 15px;
+        line-height: 28px;
+        font-family: PublicSans;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        text-align: center;
+        margin-left: -64px;
+        width: 456px;
+        margin-top: -55px;
+      }
+      &_img {
+        width: 536px;
+        height: 103px;
+        margin-left: 81px;
+        margin-top: 88px;
+      }
+      &_button {
+        border: 2px solid #fbfcfe;
+        width: 90px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #1b262f;
+        padding: 14px 32px;
+        margin-left: 84px;
+      }
+      &_href {
+        text-decoration: none;
+        color: #fbfcfe;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        padding-top: 5px;
+        font-weight: 700;
+        font-family: PublicSans;
+      }
+    }
+  }
+}
+// RESPONSIVE_MOBILE
+@media only screen and (max-width: 400px) {
+  main {
+    width: 375px;
+
+    .section1 {
+      margin-top: 200px;
+      height: 615px;
+      background-color: #1b262f;
+      display: flex;
+      justify-content: start;
+      flex-direction: column-reverse;
+      align-items: center;
+      background-image: url(../../images_mobile/section1_element_mobile.png);
+      background-repeat: no-repeat;
+      background-size: 387px 138px;
+
+      .section1_inform {
+        display: block;
+        width: 227px;
+        height: 272px;
+        padding-left: 1px;
+        padding-bottom: 1px;
+      }
+      &_title {
+        color: #fbfcfe;
+        font-size: 32px;
+        font-family: DMSerifDisplay;
+        margin:-7px -27px;
+      }
+      &_content {
+        color: #fbfcfe;
+        font-size: 15px;
+        line-height: 28px;
+        font-family: PublicSans;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        text-align: center;
+        margin-left: -36px;
+        width: 285px;
+        margin-top: 55px;
+      }
+      .picture_function {
+        width: 375px;
+      }
+      &_img {
+        width: 536px;
+        height: 103px;
+        
+        margin: 64px;
+      }
+      &_button {
+        border: 2px solid #fbfcfe;
+        width: 90px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #1b262f;
+        padding: 14px 32px;
+        margin-left: 25px;
+      }
+      &_href {
+        text-decoration: none;
+        color: #fbfcfe;
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        padding-top: 5px;
+        font-weight: 700;
+        font-family: PublicSans;
+      }
+    }
+  }
+}

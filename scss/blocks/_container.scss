@@ -1,0 +1,35 @@
+.container {
+  max-width: 1440px;
+  padding-left: 165px;
+  padding-right: 165px;
+  background-image: url(../../images/hero_section_element.png);
+  background-size: 491px 491px;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-position-x: right;
+  @media only screen and (max-width: 960px) {
+    max-width: 960px;
+    padding-left: 97px;
+    padding-right: 97px;
+    background-image: url(../../images_tablet/herosection_element1.png);
+    background-size: auto 303px;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: -30px;
+  }
+  @media only screen and (max-width: 375px) {
+    max-width: 375px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-image: url(../../images_mobile/herosection_element_mobile.png);
+    background-size: auto 160px;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-x: -30px;
+  }
+}
+.container2{
+  @media only screen and (max-width: 375px){
+    width: 375px;
+  }
+}
